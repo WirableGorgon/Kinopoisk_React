@@ -1,0 +1,89 @@
+.random-film {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.RF-table {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.RF-img {
+   flex-grow: 1; 
+   max-height: 34.5rem;
+   object-fit: cover;
+   border-radius: 16px;
+}
+
+.rand-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 3rem;
+}
+
+.rand-plot {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    height: auto;
+}
+
+.rand-buttons {
+    display: flex;
+}
+
+.r-button {
+    padding: 1rem 3rem;
+    color: white;
+    background-color: rgba(57, 59, 60, 1);
+    border-radius: 28px;
+    margin-right: 1rem
+}
+
+.about-random {
+    color: white;
+    white-space: nowrap;
+}
+
+.refetch {
+    background-image: url('ret.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 28px 34px;
+}
+
+.favourite {
+    background-image: url('fav.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 28px 34px;
+}
+
+.trailer {
+    background-color: rgba(103, 165, 235, 1);
+}
+
+.RF-stat {
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+}
+
+.stat {
+    flex-grow: 0;
+    white-space: nowrap;
+    margin-right: 1rem;
+}
+
+.rand-rating {
+    background-color: rgba(48, 142, 33, 1);
+    border-radius: 16px;
+    padding-left: 2rem;
+    padding-right: 0.75rem;
+    font-weight: 700;
+    background-image: url('star.svg');
+    background-repeat: no-repeat;
+    background-position: 0.75rem;
+}

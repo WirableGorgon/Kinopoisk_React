@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navig {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.navig-but {
+  border-bottom: 2px solid transparent;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+}
+
+.nav-search {
+  display: flex;
+  gap: 2.5em;
+  width: 70%;
+}
+
+.search-bar {
+  height: 2.6em;
+  background-color: #393B3C;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.search-block {
+  flex-grow: 1;
+  display: flex;
+}
+
+.active {
+  border-bottom: 1.5px solid rgba(220, 93, 252, 1)
+}
